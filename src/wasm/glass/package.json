@@ -1,0 +1,15 @@
+{
+  "name": "liquid-glass",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "liquid_glass_bg.wasm",
+    "liquid_glass.js",
+    "liquid_glass.d.ts"
+  ],
+  "main": "liquid_glass.js",
+  "types": "liquid_glass.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
